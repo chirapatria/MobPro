@@ -1,0 +1,68 @@
+1. Untuk menampilkan gambar, sorce codenya:
+   
+<ImageView
+         
+android:src="" />
+
+
+2. Attribut Xml
+
+
+3. CamelCase
+   
+   iLikePracticeSetsTheBest
+
+
+4. View Group
+
+
+5. <RelativeLayout
+       
+xmlns:android="http://schemas.android.com/apk/res/android"
+       
+android:layout_width="match_parent"
+       
+android:layout_height="match_parent"> 
+       
+<Button
+       
+android:id="@+id/lyla_text_view"
+       
+android:layout_width="wrap_content"
+       
+android:layout_height="wrap_content"
+       
+android:textSize="24sp"
+       
+android:text="Click Me"
+
+       
+android:layout_alignParentBottom="true"	 	
+       
+android:layout_centerHorizontal="true" />
+  
+    
+</RelativeLayout>
+
+   
+//Agar posisinya dibawah menggunakan
+   - 
+android:layout_alignParentBottom="true"
+   - 
+android:layout_centerHorizontal="true"
+
+
+6. Keduanya menggunakan linear layout, perbedaannya hanya pada orientasi.
+   
+Pada kode 1 menggunakan orientatasi vertikal, jika menggunakan orientasi vertikal maka
+   
+peletakan elemen akan terurut kebawah. Sedangkan kode 2 menggunakan orientaion horizontal,
+   
+maka letak elemen akan terurut kesamping.
+
+
+   
+
+   
+
+	
